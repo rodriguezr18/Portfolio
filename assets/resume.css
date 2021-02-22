@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+    body {
+        font-family: 'Lato', sans-serif;
+        background-color: #f5f5f5;
+    }
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: 5px;
+}
+
+.link-container {
+    list-style: none;
+    display: flex;
+}
+
+.link-container li {
+    margin-right: 5px;
+}
+
+.link-container li a {
+    text-decoration: none;
+    color:  #343434;
+    font-size: 15px;
+}
+
+.active-hover:hover {
+    border-bottom: 3px solid  #343434;
+}
+
+.current {
+    border-bottom: 3px solid  #343434;
+}
+
+.main-logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-logo {
+    font-size: 30px;
+    margin-left: 20px;
+    color: #343434;
+}
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.resumeIMG {
+    width: 320px;
+    height: 460px;
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20px;
+    width: 100vw;
+    background-color:  #343434;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 40px;
+}
+
+.footer-container p {
+    margin-left: 15px;
+}
+
+.link-container {
+    margin-left: 30px;
+}
+
+i {
+    color: #f5f5f5;
+}
+
+.icon:hover {
+    color: salmon;
+    transition: 1s;
+}
+
+.copy-right {
+    font-size: 11px;
+    margin-left: 10px;
+    color: #f5f5f5;
+}
+.fa-infinity:before {
+    color:#f5f5f5;
+}
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+   
+    .main-logo {
+        font-size: 40px;
+    }
+    .link-container {
+        margin-right: 5px;
+    }
+    .link-container li {
+        margin-right: 12px;
+    }
+    .link-container li a {
+        font-size: 20px;
+    }
+    .resumeIMG {
+        width: 450px;
+        height: 650px;
+    
+    }
+  
+}
+
+
+@media only screen and (min-width: 800px) {
+    
+    .main-logo {
+        font-size: 85px;
+    }
+    .link-container li {
+        margin-right: 20px;
+    }
+    .link-container li a {
+        font-size: 35px;
+    }
+    .aboutMe {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        width: 100%;
+    }
+    .resumeIMG {
+        width: 600px;
+        height: 800px;
+
+    }
+    footer {
+        height: 80px;
+        margin-top: 30px;
+    }
+
+    .fa-infinity:before {
+        font-size: 30px;
+    }
+
+    .copy-right { 
+        font-size: 15px;
+}
+}
